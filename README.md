@@ -249,6 +249,14 @@ for i=1, 5 do
 end
 print("count is " .. count)
 
+for init, max/min value, increment do
+   statement
+end
+
+--i.e:
+for i=0, -10, -2 do
+  print(i)
+end
 ```
 
 **Infinite Loops**
