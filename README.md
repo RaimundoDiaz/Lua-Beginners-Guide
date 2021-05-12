@@ -257,6 +257,21 @@ end
 for i=0, -10, -2 do
   print(i)
 end
+
+
+--repeat loop
+repeat
+   statement(s)
+until( condition )
+
+local i = 0
+repeat
+  print(i)
+  i = i + 1
+until(i==3)
+--0
+--1
+--2
 ```
 
 **Infinite Loops**
